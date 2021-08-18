@@ -53,7 +53,7 @@ void MatchingMethod( int, void* )
 
   minMaxLoc( result, &minVal, &maxVal, &minLoc, &maxLoc, Mat() );//寻找result这个矩阵中的最大和最小值的位置
   //因为前面其实已经有匹配和归一，所以说这个地方找出最大值或最小值就好了，这个地方同时找最大最小是因为后面根据不同方法，代表的最匹配是越大还是越小不同
-  if( match_method  == CV_TM_SQDIFF || match_method == CV_TM_SQDIFF_NORMED )
+  if( match_method  == CV_TM_SQDIFF || match_method == CV_TM_SQDIFF_NORMED )//试了一下，这个地方CV_TM_SQDIFF改成0，CV_TM_SQDIFF_NORMED改成1依然有效
     { matchLoc = minLoc; }
   else
     { matchLoc = maxLoc; }
