@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/uruom/majiang/maj_1/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -std=gnu++11 -o CMakeFiles/shuang.dir/main.cpp.o -c /home/uruom/majiang/maj_1/main.cpp",
+  "file": "/home/uruom/majiang/maj_1/main.cpp"
+}
+]

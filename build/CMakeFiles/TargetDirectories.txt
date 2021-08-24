@@ -1,0 +1,3 @@
+/home/uruom/majiang/maj_1/build/CMakeFiles/rebuild_cache.dir
+/home/uruom/majiang/maj_1/build/CMakeFiles/shuang.dir
+/home/uruom/majiang/maj_1/build/CMakeFiles/edit_cache.dir
