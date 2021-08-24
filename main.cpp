@@ -1,3 +1,4 @@
+/*问题还挺大的emmm，不过文件读入和数据库有了，数据库在build/tp/里面*/
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include <iostream>
