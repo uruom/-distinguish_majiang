@@ -8,14 +8,14 @@ using namespace std;
 using namespace cv;
 struct image_mat
 {
-  Mat image;
-  string name;
-  double val;
+  Mat image;//麻将的图片
+  string name;//麻将的名字
+  double val;//模板匹配后所给出的值，最大/最小的值就是匹配程度最高的
 };
 Mat img; Mat templ; Mat result;
-char* image_window = "Source Image";
-char* result_window = "Result window";
-int match_method=2;
+char* image_window = "Source Image";//创建一个窗口，名字是Source Image
+char* result_window = "Result window";//创建一个窗口，名字是Result window
+int match_method=2;//匹配的模板方法，总共有0-5种，经过自己饰演，发现第二种要相对好一些，所以方法选2，这个是封装过的，具体的匹配模板不定
 int max_Trackbar = 5;
 void Matching( int, void* );
 image_mat data_tp[50];
